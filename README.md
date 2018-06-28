@@ -13,9 +13,9 @@ Run Spring Boot Project
 ```
  This simple spring boot project has 3 functionalities.
  1. Put 1 million random key,value pairs to Redis without any TTL.
- 1. Put a given key,value pair to Redis with given TTL in RedisService.java.
+ 2. Put a given key,value pair to Redis with given TTL in RedisService.java.
     You can adjust TTL whatever you want in this class.
- 1. Delete key,value pair with given key.
+ 3. Delete key,value pair with given key.
  ```
 
 Prometheus Dashboard

@@ -13,7 +13,8 @@ Run Spring Boot Project
 ```
  This simple spring boot project has 3 functionalities.
  1. Put 1 million random key,value pairs to Redis without any TTL.
- 1. Put a given key,value pair to Redis with given TTL in RedisService.java -> You can adjust TTL whatever you want in this         class.
+ 1. Put a given key,value pair to Redis with given TTL in RedisService.java.
+    You can adjust TTL whatever you want in this class.
  1. Delete key,value pair with given key.
  ```
 
@@ -33,7 +34,8 @@ Grafana Dashboard
 ----------------------
 ```
 
-If you want to visualize redis metrics via grafana you have to add prometheus datasource. After adding datasource you can import this dashboard - https://grafana.com/dashboards/763 - to grafana
+If you want to visualize redis metrics via grafana you have to add prometheus datasource.
+After adding datasource you can import this dashboard - https://grafana.com/dashboards/763 - to grafana
 ```
 
 Example [Grafana](http://grafana.org/) screenshots:<br>
